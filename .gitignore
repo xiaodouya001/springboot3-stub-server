@@ -1,0 +1,94 @@
+# Java相关
+*.class
+*.jar
+*.war
+*.ear
+
+# 忽略日志文件
+*.log
+
+# 忽略编译输出目录
+/bin
+/build
+/target
+
+# 忽略临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 忽略Maven构建目录
+.mvn/
+!**/src/main/**/.mvn/
+target/
+
+# 忽略Gradle构建目录
+.gradle
+build/
+
+# 忽略IntelliJ IDEA项目文件
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# 忽略Eclipse项目文件
+.classpath
+.project
+.settings/
+
+# 忽略NetBeans项目文件
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# 忽略VS Code配置文件
+.vscode/
+
+# 操作系统生成的文件
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# 忽略node.js依赖目录
+node_modules/
+
+# 忽略Python虚拟环境目录
+venv/
+ENV/
+env/
+__pycache__/
+
+# 忽略特定的文件扩展名
+*.log
+*.out
+*.tmp
+
+# 忽略环境配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略IDEA和Eclipse生成的文件
+*.iml
+.idea/
+*.ipr
+*.iws
+*.class
+.settings/

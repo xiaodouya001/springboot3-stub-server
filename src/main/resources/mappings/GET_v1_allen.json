@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/allen"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*"
+    },
+    "bodyFileName" : "allen.json"
+  }
+}

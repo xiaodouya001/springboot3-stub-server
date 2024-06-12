@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPattern": "/your/([a-z]*)\\?and=query",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": 1,
+      "description": "netus et malesuada",
+      "isbn": "X4J 5H8",
+      "page": 62,
+      "price": 529.0,
+      "title": "arcu. Vestibulum ut",
+      "authorId": 9
+    }
+  }
+}
