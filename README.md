@@ -1,1 +1,3 @@
-# spring-stub-server
+# stub-server
+
+https://wiremock.org/docs/request-matching/
